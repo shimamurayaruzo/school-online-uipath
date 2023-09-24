@@ -1,0 +1,153 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="913,1920" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usa="clr-namespace:UiPathTeam.Subtitle.Activities;assembly=SubtitleActivity" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPathTeam.Subtitle.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>SubtitleActivity</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1855" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <usa:DisplaySubtitleActivity ContinueOnError="{x:Null}" BackgroundColor="Black" BackgroundOpacity="0.8" DisplayName="Display Subtitle" DurationMS="3000" FontSize="38" sap:VirtualizedContainerService.HintSize="484,80" sap2010:WorkflowViewState.IdRef="DisplaySubtitleActivity_1" Message="開始" TextColor="White" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="ブラウザーを使用 Chrome: Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site" sap:VirtualizedContainerService.HintSize="484,1504" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="29e0774a-8032-4c79-a7b3-a7b5981a9d6a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="450,1287" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '商品名を入力してください'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="29e0774a-8032-4c79-a7b3-a7b5981a9d6a" Text="uipath" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="420, 451, 482, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT name_679057'" FullSelectorArgument="&lt;webctrl id='name_679057' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='name_*' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="6aff9f3d-8813-4868-b962-f91d8fe8217b" InformativeScreenshot="254565881c0fd6b3840117a9754cb669.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="420, 419, 192, 24" ElementType="Text" FriendlyName="'商品名を入力してください'" FullSelectorArgument="&lt;webctrl aaname='商品名を入力してください' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='商品名を入力してください' tag='LABEL' type='' class='' check:innerText='商品名を入力してください' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTakeScreenshot DisplayName="スクリーンショットを作成" FileName="img\screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="388,240" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '送信'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29e0774a-8032-4c79-a7b3-a7b5981a9d6a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="420, 526, 54, 34" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'送信'" FullSelectorArgument="&lt;webctrl id='registerButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='registerButton' tag='BUTTON' type='button' class='btn btn-primary' aaname='送信' check:innerText='送信' /&gt;" Guid="dd8dafda-8e74-491f-bb82-aad1eaa3cae1" InformativeScreenshot="81d2b23ceb983d2b868021812856fac2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '閉じる'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29e0774a-8032-4c79-a7b3-a7b5981a9d6a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="676, 318, 68, 34" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'閉じる'" FullSelectorArgument="&lt;webctrl parentid='Modal1' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Modal1' tag='BUTTON' type='button' class='btn btn-default' aaname='閉じる' check:innerText='閉じる' /&gt;" Guid="07b550f9-4fb3-412b-b811-e11e51d635c1" InformativeScreenshot="3132370fa743cdda74c47b2c075a4e96.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTakeScreenshot DisplayName="スクリーンショットを作成" FileName="img\screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="388,240" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAqCAYAAAD1T9h6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA5qSURBVGhDrVl5dJTVFR9PT9vT/lHb2urxeHrceookAVGwCyqLBURbFlHoUdtqFa1YNySEJRDZoggJa0WEBFASFkUiCtlmC9kzgSQEQgJMVhKyTGbNMnt+vfd98yYzYRI4nt74473vvffdd3/v3nff+0YVvocMDAwEav8/kToHBvwEnwCoLsHtoc8SqgHQH718HVjZ0D7RSu2BZ1kfrhzaxhLaHiqhY10eL/6bdQmvfFpGMODVXQqU57KQZwNUDV0OMBq7egSaTD1oNfeFoaW7F/1uNykn1oFJImGoyLbQ/qF1KbKd0Wrux5S1enymNeJgYRPSCKHlIJqhejJRjxmEJzcomLFeKVnBH1YpeCReg5PlLWETh9alyHb+81Pp9bHrB8eyRKqHjuHyanc/pq/Pg8nuFHpEv88HX18vRQ2HV6CNoOrucUKii14orzfhoxMXMIkIPJ6gx8PLdXh5VwmsfS7xgpxEytA6w9rrwrpj1Xh9rwGa6mvCCCmRxsu6LFuIwLT1p8kentMPT7cJ9uRV6HptDrx2K/x+P/xeL3y8B7zErNvhxHdnWrFwdxkmJmjw2u5yem7Bfr0RU2glOKyUzTUYQpGE29nYzSdq8NInZditvow/r9WhzdIXGHFjkQT+vCFPLKivvxfmpS/DMvVudD8zAV6bGX3FWpgTl8DnckL1788MmEaDn0nKx67cK6jvcMDt86KqyYwn1umQSyvISiNBThgKJhB/5Bzij55DYV0nJq/LQ0NnjxjLMnR8JAgPbGAPONFfUQrz9FGwTblPEOjJOgbz7PGwTH8ArtpzUI1akouk72ph73fT5Moqd9n7sWBbMbacughfIOZCJfR5aJ1xsdWGv27MxyMrNUj+tgYe2guRJNK7jFACvbqTsE69n3AfLNNGwTozmur3wvrE/egtOQ3V9MR8PPnhadRctdIG8cPt9SEuvQpv7DHA4fSEKZYS2uald4ztdlQ1mlFJ4LKqwYyPaR9NIw+yF7hdoqbFAqfbS+/K3K7olfq5VAgoIeRuNsJCK26bQkYTCfaEjUrz3N/D09EK1SufleFPq3VYsLVYrHxafgNmfnQazSLuw42WwnXFWwP4sqQBE1ZqMTZOE0TMMh1i4tSIidVizDI1xsTJfi3GUVKIP1RFXvGRjkHvhpbSAyYHbWKKAPvRvTDP4DC6l3APLDOi0ZNxUGxm1e8pRX5BRi/aW46/7yjB4x8oqyaV8x9VgnVREuz9LiSfrMGMD/Mx8QM9PqX9k6ozYh+D8neqrl48yzYuU/T1eHZrEcav1GP1kSoYO2xClzRclkECIgtxOvai//wZOPZvg+PzHXDWVpDxvABEoLrFTHHuxzVrH3mhCKnaK4IZG+sfIFfTQJ+vD576XXAbt1P6Ys/4UHfNSoZoEUWrOoNC0E5ptrC2nTLPFVQ2mIRyDhE+BFN0l3Hc0II+Cp24tHOIXqpBVKwGn2TX8PKEiUKgl9JoHtnUT6eyT5zMShkKbvPSVSIw0YCf87cTHsqvrESBn8i54a7bAE/2nfBm3w73xQQ6VNyCAIeOJKCpbsMTlLvf2X8GU9focbndJrz0/I5iSstl+MvGQnyivoSl6ecQxQSWarEjUyEwOJ8CE6X1p0nn7E0FmJdUgGeSCyNiXlIh6DKnhAhDKuA2LtlNnubP4cm5i4z/NeFXgoi7KQV1beYAAR2eosl25tTh9T1lYuPN2lRI6beD9pEDT6zVorbVij0aI/6TehaxB88L46NoT2wPEGBR5hUzC+9xYii5ZLohyAPS6EFhJdzm6ciFJ/c++LJvgztvPDx5j4i6J/duNFw8jqlk3JjlWjxJmexsfRemJ+bRSufj6Y15aKeQ5Gzz/oGzlOXyMIn2VgaFUVx6NWKIwEP0Xoah+XoCwp5AVNwErrtOKwp88FrOwKWPQU/mPSg/Og1lZ9Qoq9Cg9PBfUHpkGkq+/jsyiiowh9zIG7mHzhG++BXUdtGGvoxLtOp8/UjLN+LL4ibygo1S7gCWpp3HhFU6HC5qQPGlThiumIIo59JoEtmQk4i0hw9H9opP2KYg0BmZgK/HCPfpiXBm3YV3N22kdKhG1BI1ogmjY3Opnoto2oSjuZ1WcyZdBpkAvU1G+ig0ajFpjY6gx3yK1SsUDrxabEgcERDvLqF9QHpGM0inRBTp5EOwgzwYtIeSyufNLZhYUIxDLVfFHUgSCRJQGoilqwuukr/Cl3U7Ok+OwqSV3+CFHQZ8XdqE4wEc0+Xh2IGX8NW+FzF7TRqmU8proXjn26OJVq+TJq9s6EYRpePGDrtoU+DEe59XYny8Hmmn60lXY1CnxMrDVRRiapy+0Cbs8ZPX0q624mdZWtxySoOfZ+uRca1deIRMDiXAN7weuCsWwpvFG/Z2tJ9ZhccStIhNPy9WgUlSuqL/XPDUrhYbelnyeoylg2vymjxMXntjPLxCRwclhZyTvy9o0QL7TegmOVrSSARyoau+KtJ5Rts1/CpbR8arBQHGnWo9dCaTeCe4if1klLv2AzLqdkHAXfkGOszdREAfJCCMD0zo9zrgqVyI+oyHEb/lA7yRvAdvphrw5r6KEbGYPFBQ2yFinBeN9bFIAkeKmYAaWiKg6TLhjhwdVJlq/DpHj7V1l3EreUJFZO5Vn0al1aoQ4APL3bg7kOvJ+LI5FEomdNr68WgYgcHJRLg5KVXq/4kvUl7Cfz9dhh0nirAzqw47hsFO+kzcQyd2dbNFhIAgcR2BJuGBpKKLuDNXQ8Zr8Asy+vi1Dop9H/bTXvhpJpEgUqO1+VCxIk/b1/Dm3E35/ja4Ch6Dv4+/vvw3IOBDcV2XSI+jaSOPXabBg3T/eZDyu1Jej7FxtFHpEBtHY1M0V8RFUBou5XBxszipbz1Ixp/SUuzrcKRV+SjisWzHFmMjfkzEVCcJ7opX4NH8jlaecr1uLHy26oDSgREIAA7KOvOTi+gelIfMyjbKNA4B4wjgfk6Tf9teQoegBrUFCRSqrxIWCnionv7VZoyJzcGmtHfwTfYsFOuehVOMkViIPrJZp3kWJ7Jn0xcZna5svEfzW3g6c8g4uVkjE1BWfwD1nQ5MiNdh1ZFKEQ7cppRKXSnDoYSNHycrWjFqiQ7ffjGf5v4l7bnbBHxUT9/3D4xZmg1t+gxxaPqyFPvkmCC4jcJd5THMg9swn8LoGE0S2FgBIyWBpWnVQXdL4/gu9PBKNT48fk4xzOOB300fRVTyBVCpE+gmyd+vfrcLPn6mvryaDiKgQcZXa+AtmwcPobN4Fgqyp2D9vjgikAPtN4upby48hmeoDAe3iXbDXNoDflLOICP4gFDAqzmADkmAPMC/MChjlJWu5dvoCi0SiYCvrwem5NWwZaTBlLQS9rxTsH2WDOuh3XAc2QdbylbYjqXDvG0dnFdqAgSykXGmjTzrhcnVh5nFpfjRqRzcsUeDaNovumrah9R3I6imFBswNYApxeVhmKwvRcwqLcZvzw/0yzEGPJ5diqjlGvJAFbxWM67F/gtWfRY63noe5v07Yf50EywHPoF9YxysqxbBnnsCto9XwFleKAjwyT7xSBGmlhgQpadbJeX3H1B6fOhgHnmACJxvFftwJHA0qDinDocfZmjwAH3w/GYzZwRuk6UaPzmqxQNEgD0gCCz+B7pSt6JjwSSYD+yAZXM8uulT0LFuMRF4E6ZNy2FJeBvOM0ygEzEUQr9MHZzrlpNqvFxRjdQCI2UhOsgEATJThGw4QttVz5VXYjjMKziLseSBiTsLMN9QEdY3R1OB6BUBAnYLrr31AjoXv4T2hXNgPpqKzvdehOmpcbBtWgFzYiy66LAzJ8ZRRikLemDGsZKgvmU1dbB5XDhMn6jRfJAxATY2BML4QBkk4HH2Yzi0d9nwKOX52C+q4eoP77vY3IUJtAfEJqbvW1dbM1zNDXC1NsHTY6d6vXj2mE1wd3fBQ3B306eq0yk8MOr9HGSUXg3q4994/ITDhUZKo0Sgskk8RwKPFeMpIai6F87GcKh//Xk8uvQU3l28F6bX5lDbrGBf6aKFmBCbGcxCoasispIAHTzBZ6XkJMEeeIAOq0NvxcMc0GcS5SykvL0aY8kDpxa9I565fSiEDa/PRe93X0Jlm3QfhkPjtHF47P3vsPjVJFgnh/eVPzUFE97PxIr0s2ikM4HRMCzsYc9flTYTAS0OPfcy7CE6HY/fi9QFrxKBXGTOnhvWFwpuZ5hnjoWqh9LfcGhOSsSjy7OwOOEoHMlr4NiSEOhLQMXmZEygAyeGrgUPLVdjHG3oh24SfO34HRE4+uEe9JIuOV8v4UDibpGFsj9KFs+yLxSOjyghkPHWyb+lyxwfUMOg09o/eBulOA/v68W2kxeRdILwLaMmUN4MavDxNxdwvtkcppOh3EaV6/TQPgk+GO17t8BGUXHdF9mgjHQX4nhWTm3SGETo83B1+SxB/widUkIJDBWeV5ZemwUWynjiOh0qwUEBAuyBf++toNWy4HyLVSlHAo25EIBSt+BCpHERwGO3ZdYFCLQpdpA9oYbLkpNCf0XJ8B7gQf1uDxZsK6G8rMUYuibzT4Q3A84iPJ5/SlTeu/l3Yyg7/XG1hm6vtoAl4SJJ8GHMHoz4US9LTnutll4c0BuRSvd3vsOnarg+iBRRcntIn9YofhsaQ5t1w/HzIX3Xvz8U/LNkZWO3WGFph5ShdcYIe4CFXxh8SYpUxCVPJJXRP0odfixKKafMpEZVo/LtGuyjRZHGDSdi/Ajzsii6bkggskhFXPa63MitaqU7/tUgThGe21ok0uXu3Lrr+topg8n3ZSnrLEProZAinulv2BBiuVGdS8MVupjRFxT/niMRzaBY5r0j6rKP9kZUbC52ZV8Mvi/l+9ZH9EDkl+VKKCX/71dtdSuyK5qRdQPwmJzKFnQ72APK++KP1En9wXrwWSlZxPgwDOB/aBrEtIkCG60AAAAASUVORK5CYII=" InformativeScreenshot="f3715223999146214ba3a3a337377438.jpg" Selector="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" Title="Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site" Url="https://rpatrainingsite.com/onlinepractice/chapter7.2/" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <usa:DisplaySubtitleActivity ContinueOnError="{x:Null}" BackgroundColor="Black" BackgroundOpacity="0.8" DisplayName="Display Subtitle" DurationMS="3000" FontSize="38" sap:VirtualizedContainerService.HintSize="484,80" sap2010:WorkflowViewState.IdRef="DisplaySubtitleActivity_2" Message="終了" TextColor="White" />
+  </Sequence>
+</Activity>
